@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1000,600" sizebox="4,4,4,4" roundcorner="5,5" caption="0,0,0,100" mininfo="500,300" bktrans="false">
+    <Font name="微软雅黑" size="12" bold="false" italic="false" />
+    <Font name="微软雅黑" size="14" bold="false" italic="false" />
+    <Font name="微软雅黑" size="16" bold="false" italic="false" />
+    <Font name="微软雅黑" size="18" bold="false" italic="false" />
+    <Font name="微软雅黑" size="20" bold="false" italic="false" />
+	<Font name="微软雅黑" size="24" bold="false" italic="false" />
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<Default name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	
+	<Default name="Button" value="normalimage=&quot;file='btn_default.png' source='0,0,96,24' fade='200'&quot; hotimage=&quot;file='btn_default.png' source='0,24,96,48' fade='200'&quot; pushedimage=&quot;file='btn_default.png' source='0,48,96,72' fade='200'&quot; " />
+    
+    
+    <VerticalLayout name="VerLayFrame" height="30" bkimage="bg\bg_skin_0.png">
+    	
+        <!--浏览器标题栏-->
+        <VerticalLayout name="VerLayCaption" height="30" bordercolor="#FFFF0000" bordersize="0">
+            <HorizontalLayout name="HorLayTitle" height="30" bordercolor="#FFFF0000" bordersize="0">
+				<VerticalLayout name="VerTitleName" bordercolor="#FF00FF00" bordersize="0" >
+					<Label pos="0,0,30,30" bkimage="title.png" />
+					<Label name="TextTitle" float="true" pos="30,0,0,0" width="600" height="30" text="ListXml编辑器" textcolor="#FF000000" textpadding="3,0,0,0" relativepos="0,0,100,100" font="2" align="left" valign="vcenter" />
+				</VerticalLayout>
+				<VerticalLayout name="VerMenu" width="10" bordercolor="#FF00FF00" bordersize="0" >
+				</VerticalLayout>
+				<VerticalLayout name="VerSystemButton" width="200" bordercolor="#FF00FF00" bordersize="0" >
+					<Button name="BtnClose" float="true" pos="153,3,0,0" width="44" height="22" normalimage="file='skin_close.png' source='0,0,44,22'" hotimage="file='skin_close.png' source='44,0,88,22'" pushedimage="file='skin_close.png' source='88,0,132,22'" />
+					<Button name="BtnRestore" float="true" visible="false" pos="120,3,0,0" width="33" height="22" normalimage="file='skin_reduction.png' source='0,0,33,22'" hotimage="file='skin_reduction.png' source='33,0,66,22'" pushedimage="file='skin_reduction.png' source='66,0,99,22'" />
+					<Button name="BtnMax" float="true" pos="120,3,0,0" width="33" height="22" normalimage="file='skin_max.png' source='0,0,33,22'" hotimage="file='skin_max.png' source='33,0,66,22'" pushedimage="file='skin_max.png' source='66,0,99,22'" />
+					<Button name="BtnMin" float="true" pos="84,3,0,0" width="36" height="22" normalimage="file='skin_min.png' source='0,0,36,22'" hotimage="file='skin_min.png' source='36,0,72,22'" pushedimage="file='skin_min.png' source='72,0,108,22'" />					
+				</VerticalLayout>
+            </HorizontalLayout>
+            
+        </VerticalLayout>
+        
+        <!--客户区-->
+        <VerticalLayout name="VerLayClient" bordercolor="#FFFF0000" bordersize="0" >
+        	<HorizontalLayout height="67" >
+				<Button pos="10, 0, 75, 62" float="true" align="center" name="BtnAddChild" text="Child" tooltip="添加子节点" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='commmon.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar" />
+		        <Button pos="85, 0, 150, 62" float="true" align="center" name="BtnAdd" text="Sibling" tooltip="添加兄弟节点" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='firewall.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
+		        <Button pos="160, 0, 225, 62" float="true" align="center" name="BtnDelete" tooltip="删除节点" text="Delete" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='antivirus.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
+		        <Button pos="235, 0, 300, 62" float="true" align="center" name="BtnOpen" text="打开" tooltip="打开文件" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='networkshield.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
+		        <Button pos="310, 0, 375, 62" float="true" align="center" name="BtnSave" text="保存" tooltip="保存文件" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='preventnumber.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
+		        <Button pos="385, 0, 450, 62" float="true" align="center" name="BtnExit" text="关闭" tooltip="关闭文件" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='softwaremanager.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
+      		</HorizontalLayout>
+        	<HorizontalLayout >
+        		<VerticalLayout >
+        			<TreeView name="ListXml" bkcolor="#ffffffff" visiblefolderbtn="true" visiblecheckbtn="true" vscrollbar="true" hscrollbar="true" relativepos="0,0,100,100" bordercolor="#FF00FF00" bordersize="0" menu="true" dbclick="false" >
+        	
+			        	<ListHeader height="24" menu="true" relativepos="0,0,100,100" bordercolor="#FF0000FF" bordersize="1" >
+							<ListHeaderItem text="Key" align="left" font="1" float="tue" minwidth="200" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" relativepos="0,0,40,100" />
+							<ListHeaderItem text="Type" align="left" font="1" float="tue" minwidth="150" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" relativepos="40,0,30,100" />
+							<ListHeaderItem text="Value" align="left" font="1" float="tue" minwidth="150" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" relativepos="70,0,30,100" />
+						</ListHeader>
+					
+						<!--TreeNode text="Root" name="RootNode" readonly="true" folderattr="padding=&quot;0,1,0,0&quot; width=&quot;16&quot; visible=&quot;true&quot; height=&quot;16&quot; normalimage=&quot; file='Icon/treeview_b.png' source='0,0,16,16' &quot; hotimage=&quot; file='Icon/treeview_b.png' source='16,0,32,16' &quot; selectedimage=&quot;file='Icon/treeview_a.png' source='0,0,16,16' &quot; selectedhotimage=&quot; file='Icon/treeview_a.png' source='16,0,32,16' &quot;" checkboxattr="width=&quot;16&quot; height=&quot;16&quot; visible=&quot;true&quot; normalimage=&quot;file='Icon/unchecked.png' &quot; selectedimage=&quot;file='Icon/checked.png' &quot;" itemattr="visible=&quot;true&quot;" relativepos="0,0,100,100" horizattr="bordercolor=&quot;#FFFF0000&quot; bordersize=&quot;0&quot; " >
+							
+						</TreeNode-->
+					</TreeView>
+        		</VerticalLayout>
+        		<VerticalLayout width="1">
+        		</VerticalLayout>
+        	</HorizontalLayout>
+        </VerticalLayout>
+        
+        <!--状态栏-->
+        <VerticalLayout name="VerLayStatus" height="30" bordercolor="#FFFF0000" bordersize="0" >
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

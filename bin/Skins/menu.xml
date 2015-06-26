@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window bktrans="true" size="140,127">
+ <Font name="宋体" size="13" bold="false"/>
+ <Font name="宋体" size="12"/>
+<VerticalLayout bkimage="file='menu_bk.png' corner='40,8,8,8'" hole="false">
+	<List header="hidden" inset="8,8,8,8" itemhotimage="file='menu_hot_bk.png' corner='2,2,2,2'" itemdisabledbkcolor="#20000000">
+		<ListContainerElement name="menu_newchild" height="22" inset="30,0,0,0">
+			<Label text="New Child" mouse="false"/>
+		</ListContainerElement>
+		<ListContainerElement name="menu_newsibling" height="22" inset="30,0,0,0">
+			<Label text="New Silbling" mouse="false"/>
+		</ListContainerElement>
+		<ListContainerElement name="menu_delete" height="22" inset="30,0,0,0">
+			<Label text="Delete" mouse="false"/>
+		</ListContainerElement>
+		
+		<ListContainerElement name="menu_expand" tooltip="展开" height="22" inset="30,0,0,0">
+			<Label text="Expand All" mouse="false"/>
+		</ListContainerElement>
+		<ListContainerElement name="menu_collapse" tooltip="收起" height="22" inset="30,0,0,0">
+			<Label text="Collapse All" mouse="false"/>
+		</ListContainerElement>
+		
+	</List>
+</VerticalLayout>
+</Window>

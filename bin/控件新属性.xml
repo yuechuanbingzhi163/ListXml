@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Controls>
+  <VerSlidePage parent="VerticalLayout" notifies="setfocus killfocus timer menu windowinit(root)">
+    <!--VerSlidePage 私有属性-->
+    <Attribute name="automove" default="true" type="BOOL" comment="是否当停止移动时，页面自动移动到正确的位置,如(true)"/>
+    <Attribute name="speed" default="100" type="INT" comment="自动移动时每次刷新移动的步长,最小间隔20MS,如(50)"/>
+    <Attribute name="selectid" default="0" type="INT" comment="默认选择的页面,如(1)"/>
+    <Attribute name="distance" default="0" type="INT" comment="子页移动多少距离后翻页，为0时自动选择最当前在屏幕最多的子页面,如(100)"/>
+    <Attribute name="alignpoint" default="topleft" type="STRING" comment="子页面自动对齐的点,值有：topleft,topright,topcenter,bottomleft,bottomright,bottomcenter,leftcenter,rightcenter,center"/>
+  </VerSlidePage>
+  <HorSlidePage parent="HorizontalLayout" notifies="setfocus killfocus timer menu windowinit(root)">
+    <!--HorSlidePage 私有属性-->
+    <Attribute name="automove" default="true" type="BOOL" comment="是否当停止移动时，页面自动移动到正确的位置,如(true)"/>
+    <Attribute name="speed" default="100" type="INT" comment="自动移动时每次刷新移动的步长,最小间隔20MS,如(50)"/>
+    <Attribute name="selectid" default="0" type="INT" comment="默认选择的页面,如(1)"/>
+    <Attribute name="distance" default="0" type="INT" comment="子页移动多少距离后翻页，为0时自动选择最当前在屏幕最多的子页面,如(100)"/>
+    <Attribute name="alignpoint" default="topleft" type="STRING" comment="子页面自动对齐的点,值有：topleft,topright,topcenter,bottomleft,bottomright,bottomcenter,leftcenter,rightcenter,center"/>
+  </HorSlidePage>
+  <SlidePageItem parent="Container" notifies="setfocus killfocus timer menu windowinit(root)">
+    <!--SlidePageItem 私有属性-->
+    <Attribute name="leftmove" default="true" type="BOOL" comment="允许向左拖动,如(false)"/>
+    <Attribute name="rightmove" default="true" type="BOOL" comment="允许向右拖动,如(false)"/>
+    <Attribute name="topmove" default="true" type="BOOL" comment="允许向上拖动,如(false)"/>
+    <Attribute name="bottommove" default="true" type="BOOL" comment="允许向下拖动,如(false)"/>
+    <Attribute name="move" default="true" type="BOOL" comment="允许拖动,如(false)"/>
+  </SlidePageItem>
+</Controls>
