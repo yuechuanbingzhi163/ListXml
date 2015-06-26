@@ -151,7 +151,7 @@ END
 // ZIPRES
 //
 
-IDR_ZIPRES_SKIN         ZIPRES                  "E:\\MyProjects\\MyProjects\\ListXml\\bin\\Skins\\Skins.zip"
+IDR_ZIPRES_SKIN         ZIPRES                  "..\\bin\\Skins\\Skins.zip"
 
 /////////////////////////////////////////////////////////////////////////////
 //
